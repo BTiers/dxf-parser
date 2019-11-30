@@ -4,6 +4,7 @@ import AUTO_CAD_COLOR_INDEX from './AutoCadColorIndex';
 import Face from './entities/3dface';
 import Arc from './entities/arc';
 import AttDef from './entities/attdef';
+import Attrib from './entities/attdef';
 import Circle from './entities/circle';
 import Dimension from './entities/dimension';
 import Ellipse from './entities/ellipse';
@@ -32,6 +33,7 @@ function registerDefaultEntityHandlers(dxfParser) {
 	dxfParser.registerEntityHandler(Face);
 	dxfParser.registerEntityHandler(Arc);
 	dxfParser.registerEntityHandler(AttDef);
+	dxfParser.registerEntityHandler(Attrib);
 	dxfParser.registerEntityHandler(Circle);
 	dxfParser.registerEntityHandler(Dimension);
 	dxfParser.registerEntityHandler(Ellipse);
