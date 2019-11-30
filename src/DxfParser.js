@@ -4,7 +4,7 @@ import AUTO_CAD_COLOR_INDEX from './AutoCadColorIndex';
 import Face from './entities/3dface';
 import Arc from './entities/arc';
 import AttDef from './entities/attdef';
-import Attrib from './entities/attdef';
+import Attrib from './entities/attrib';
 import Circle from './entities/circle';
 import Dimension from './entities/dimension';
 import Ellipse from './entities/ellipse';
